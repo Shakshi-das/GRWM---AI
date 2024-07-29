@@ -20,3 +20,6 @@ import warnings
 warnings.filterwarnings(action="ignore")
 pd.options.display.max_seq_items = 8000
 pd.options.display.max_rows = 8000
+
+# Visualizing the variables:
+sns.pairplot(train)
