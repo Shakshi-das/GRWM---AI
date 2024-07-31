@@ -23,3 +23,8 @@ pd.options.display.max_rows = 8000
 
 # Visualizing the variables:
 sns.pairplot(train)
+
+Examining The Data:
+train = pd.read_csv('train.csv')
+test = pd.read_csv('test.csv')
+train.head()
